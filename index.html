@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <ul class="tree-list">
+    <li class="tree-list__li ">
+      <div class="tree-list__item">
+        <i class="tree-list__btn"></i>
+        <span class="tree-list__name -folder">Folder</span>
+      </div>
+      <ul class="tree-list">
+        <li class="tree-list__li">
+          <div class="tree-list__item">
+            <i class="tree-list__btn"></i>
+            <span class="tree-list__name -folder">Folder 1</span>
+          </div>
+          <ul class="tree-list">
+            <li class="tree-list__li">
+              <span class="tree-list__name -file -svg">Item 1.1</span>
+            </li>
+          </ul>
+        </li>
+        <li class="tree-list__li">
+          <div class="tree-list__item">
+            <i class="tree-list__btn"></i>
+            <span class="tree-list__name -folder">Folder 2</span>
+          </div>
+          <ul class="tree-list">
+            <li class="tree-list__li">
+              <div class="tree-list__item">
+                <i class="tree-list__btn"></i>
+                <span class="tree-list__name -folder">Subfolder 2.1</span>
+              </div>
+              <ul class="tree-list">
+                <li class="tree-list__li">
+                  <span class="tree-list__name -file">File 2.1.1</span>
+                </li>
+                <li class="tree-list__li">
+                  <span class="tree-list__name -file">File 2.1.2</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="tree-list__li">
+          <div class="tree-list__item">
+            <i class="tree-list__btn"></i>
+            <span class="tree-list__name -folder">Folder 3</span>
+          </div>
+          <ul class="tree-list">
+            <li class="tree-list__li">
+              <span class="tree-list__name -file">File 3</span>
+            </li>
+          </ul>
+        </li>
+        <li class="tree-list__li">
+          <span class="tree-list__name -file">File 4</span>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
